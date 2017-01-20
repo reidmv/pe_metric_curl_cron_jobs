@@ -4,7 +4,7 @@
 <%
   $metrics_base = [
                     { 'url' => 'org.apache.activemq:type=Broker,brokerName=localhost,destinationType=Queue,destinationName=puppetlabs.puppetdb.commands',
-                      'name' => '' },
+                      'name' => 'activemq' },
                     { 'url' => 'puppetlabs.puppetdb.storage%3Aname%3Dcatalog-hash-miss-time',
                       'name' => 'catalog_hash_miss'},
                     { 'url' => 'puppetlabs.puppetdb.storage%3Aname%3Dcatalog-hash-match-time',
